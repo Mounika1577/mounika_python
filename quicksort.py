@@ -1,0 +1,22 @@
+arr=[4,5,3,7,2]
+p=0
+l=0
+r=len(arr)-1
+while(l<=r):
+    print(str(l)+' '+str(r))
+    if(arr[p]>arr[r]):
+        temp=arr[r]
+        arr[r]=arr[p]
+        arr[p]=temp
+        p=r
+    else:
+        r=r-1
+    #print(arr)
+    if(arr[p]<arr[l]):
+        temp=arr[l]
+        arr[l]=arr[p]
+        arr[p]=temp
+        p=l
+    else:
+        l=l+1
+print(arr)
