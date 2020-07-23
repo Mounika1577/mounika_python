@@ -1,4 +1,0 @@
-keys={"ten","twenty","thirty"}
-values={10,20,30}
-sampledict=dict({keys,values})
-print(sampledict)
