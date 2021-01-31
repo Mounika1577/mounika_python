@@ -38,19 +38,13 @@ def manipulation(s1):
 
 manipulation(l1)
 manipulation(l2)
-
 # def funct(a,b):
-    
 #     return a+b
-
 # print(funct(8,10))
 # print(funct(7,3))
-
 def multiply(x,a):
     for i in range(a+1):
         print(x*i)
-        
-
 y=int(input())
 z=int(input())
 result=multiply(y,z)
